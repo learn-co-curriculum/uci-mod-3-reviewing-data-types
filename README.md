@@ -96,8 +96,11 @@ being on a scale, and thus _scalar_; but the following might sound strange:
 
 Consider that each letter in a `String` is on the following _scale_:
 
-```ruby
-["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+```
+["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O",
+"P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d",
+"e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
+"t", "u", "v", "w", "x", "y", "z"]
 ```
 
 To "go up one" from `"aaa"` we go to `"aab"`, and then `"aac"` and so on. But
